@@ -25,16 +25,16 @@ run the following command after cloning the repository:
 ```bash
 > python main.py
 ```
+# run tests:
+```bash
+> python -m unittest     tests.tests.TestReadFromDb
+```
 # run the api:
 ```bash
 > python api.py
 ```
 and then follow this link : http://127.0.0.1:5000/read/first-chunk
 
-# run tests:
-```bash
-> python -m unittest     tests.tests.TestReadFromDb
-```
 # Conclusion :
     -   all system logs are stored under this directory : logs/record.log
 
